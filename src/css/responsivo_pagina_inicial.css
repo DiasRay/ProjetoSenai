@@ -1,0 +1,32 @@
+/* Adicionando consulta de mídia para telas menores */
+@media(max-width: 1023px) {
+
+    .img{
+        height: 100vh;
+        width: 100vw;
+        z-index: 0;
+    }
+   
+    .img .senai-fundo {
+        width: 100vw;
+
+    }
+
+    .logo, .logo-senai {
+        max-width: 90vw;
+        max-height: 8vh;
+    }
+
+    .caixa-cadastro {
+        margin: 3%;
+        text-align: center;
+    }
+
+    .container{
+        z-index: 1;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+    }
+
+}

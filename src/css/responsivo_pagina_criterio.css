@@ -1,0 +1,70 @@
+@media(max-width: 870px){
+
+    .container_retangulos{
+        flex-direction: column;
+        width: 100vw;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .campo{
+
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 0px; 
+    margin-right: 0px;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    }
+
+    .botoes{
+
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 15px;
+    gap: 10px;
+
+    }
+
+}
+
+@media (max-width: 425px) {
+    .retangulo.A {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-top: 0px solid;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(187, 185, 185);
+        width: 405px;
+        height: auto;
+        min-height: 80px;
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .retangulo.B {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-top: 0px solid;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        background-color: rgb(247, 247, 247);
+        width: 405px;
+        height: auto;
+        min-height: 80px;
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

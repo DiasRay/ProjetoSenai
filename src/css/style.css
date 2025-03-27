@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; 
+ 
+    
+    }
+
+    .pagina-inicial {
+        display: flex;
+        width: 100%;
+    }
+
+    .img {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .logo {
+        max-width: 24vw;
+        max-height: 10vh;
+    }
+
+    .texto {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .caixa-cadastro {
+        background-color: #ffffff;
+        padding: 8%;
+        border-radius: 16px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:3%;
+    }
+
+    .titulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+    }
+
+    .nome-projeto {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .turma-cadastro {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .nif-professor {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .avaliacao-projeto h1 {
+        text-align: center;
+    }
+
+    .campo {
+        /* margin-bottom: 20px; */
+        /* width: 60%; */
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        /* border-radius: 30px; */
+        padding: 8px;
+        margin-top: 2vh;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #000;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        background-color: rgba(30, 30, 30, 0.1);
+    }
+
+    .botoes {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 13px
+    }
+
+    button {
+        padding: 5px 9px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    a{
+    text-decoration: none;
+    color: #fff;
+    }
+
+    .botao{
+        background-color: #e30613;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        width: 127px;
+    }
+
+    button:hover {
+        background-color: #898888;
+    }
+
+    .senai-fundo {
+        width: 50vw;
+        height: 100vh;
+        flex-shrink: 0;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        width: 50vw;
+        height: 100vh;
+    }
+
+    form#formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
